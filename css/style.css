@@ -127,13 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media screen and (max-width: 1160px){
+    .container{
+        width: 100vw;
+    }
+}  
 
-
-@media screen and (max-width: 768px){
-        .container {
-            width: auto; 
-        }
-}   
 @media screen and (max-width: 480px){
     .row{ 
         display: block;
@@ -148,19 +147,11 @@ img {
         margin: auto;
     }
 
-    .why-us li{
+    .why-us li ,.steps{
         margin: auto;
     }
 
-    .steps {
-        margin:auto;
-    }
-
-     .col .card ,.why-us .text-center{
-        padding: 2rem 0;
-    }
-
-    .why-us ul li{
+     .col .card ,.why-us .text-center ,.why-us ul li{
         padding: 2rem 0;
     }
 }   
